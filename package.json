@@ -1,0 +1,18 @@
+{
+  "name": "@cluejs/gulp-imagemin",
+  "version": "0.2.0",
+  "description": "Wrapper gulp-imagemin with imagemin-{mozjpeg,pngquant,svgo} plugins by default",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-imagemin": "^3.3.0",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "imagemin-svgo": "^5.2.2"
+  }
+}
