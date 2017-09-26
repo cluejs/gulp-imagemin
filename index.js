@@ -4,7 +4,7 @@ const imagemin_pngquant = require('imagemin-pngquant');
 const imagemin_svgo = require('imagemin-svgo');
 
 module.exports = () => {
-    gulp_imagemin([
+    return gulp_imagemin([
             imagemin_mozjpeg({
                 quality: 90,
                 progressive: true,
